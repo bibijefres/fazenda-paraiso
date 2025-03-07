@@ -1,0 +1,28 @@
+/* Navbar customizada */
+.custom-navbar {
+  background-color: #2e7d32; /* verde escuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+/* Container para logo + nome */
+.brand-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo maior */
+.fazenda-logo {
+  width: 120px;
+  margin-right: 20px;
+}
+
+/* Título maior */
+.fazenda-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
