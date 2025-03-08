@@ -27,7 +27,7 @@ import {
   CheckCircle
 } from "react-feather";
 import "bootstrap/dist/c
-{
+
   Trash2,
   Edit,
   PlusCircle,
