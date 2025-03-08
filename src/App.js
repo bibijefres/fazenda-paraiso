@@ -24,16 +24,17 @@ import {
   Legend,
   ResponsiveContainer
 } from "recharts";
-import {
-  Trash2,
-  Edit,
-  PlusCircle,
-  import SimpleLogin from "./SimpleLogin";
+;
   BarChart2,
   DollarSign,
   CheckCircle
 } from "react-feather";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/c
+  import {
+  Trash2,
+  Edit,
+  PlusCircle,
+  import SimpleLogin from "./SimpleLogin"ss/bootstrap.min.css";
 import "./App.css";
 import logo from "./assets/logo.svg";  // Ajuste/remova se não tiver.
 
