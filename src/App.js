@@ -28,6 +28,7 @@ import {
   Trash2,
   Edit,
   PlusCircle,
+  import SimpleLogin from "./SimpleLogin";
   BarChart2,
   DollarSign,
   CheckCircle
@@ -49,6 +50,7 @@ export default function FazendaParaisoApp() {
   // Dados Básicos
   const [basicData, setBasicData] = useState({
     brinco: "",
+  const [authenticated, setAuthenticated] = useState(false);  conautenticated, setAuthenticated] = useState(false);
     raca: "",
     sexo: "M",
     dataEntrada: "",
@@ -216,10 +218,12 @@ export default function FazendaParaisoApp() {
 
   return (
     <>
-      {/* Navbar grande e centralizado */}
-      <Navbar className="custom-navbar mb-4">
-        <Container className="brand-container">
-          <img src={logo} alt="Fazenda Paraíso" className="fazenda-logo" />
+   
+ if (!authenticated) {
+    return <SimpleLogin onLogin={() => setAuthenticated(true)} />;
+}
+ 
+ } alt="Fazenda Paraíso" className="fazenda-logo" />
           <Navbar.Brand className="fazenda-name">Fazenda Paraíso</Navbar.Brand>
         </Container>
       </Navbar>
